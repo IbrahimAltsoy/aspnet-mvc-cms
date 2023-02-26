@@ -21,24 +21,13 @@
         <main role="main" class="pb-3">
             <partial name="_TopBar" />
             <partial name="_Header" />
-            <partial name="_Slider" />
-           @* <br /><br /><br />*@
-            <partial name="_FeaturedColumns" />
-            <partial name="_FeaturedContent" />
-            <partial name="_Statistics" />
-            <partial name="_Services" />
-            <partial name="_ContactForm" />
-            <partial name="_CustomerReviews" />
-            <partial name="_Partner" />
-            <partial name="_Footer" />
-
-
 
             @RenderBody()
+            <partial name="_Footer" />
         </main>
     </div>
-    <script src="~/template/plugins/slick-carousel/slick/slick.min.js"></script>
-    <script src="~/template/plugins/shuffle/shuffle.min.js"></script>
+    
+    
     <!-- Google Map -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA"></script>
     <script src="~/template/plugins/google-map/gmap.js"></script>
@@ -54,10 +43,7 @@
     <script src="~/template/plugins/slick-carousel/slick/slick.min.js"></script>
     <script src="~/template/plugins/shuffle/shuffle.min.js"></script>
 
-    <!-- Google Map -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA"></script>
-    <script src="~/template/plugins/google-map/gmap.js"></script>
-
+   
     <script src="~/template/js/script.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>

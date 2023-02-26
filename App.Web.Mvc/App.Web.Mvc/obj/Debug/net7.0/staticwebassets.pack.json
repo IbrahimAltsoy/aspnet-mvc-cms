@@ -5,8 +5,28 @@
       "PackagePath": "staticwebassets\\App.Web.Mvc.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\TraversalSignUpTheme-main\\web\\css\\style.css",
+      "PackagePath": "staticwebassets\\TraversalSignUpTheme-main\\web\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\TraversalSignUpTheme-main\\web\\images\\banner1.jpg",
+      "PackagePath": "staticwebassets\\TraversalSignUpTheme-main\\web\\images\\banner1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\TraversalSignUpTheme-main\\web\\index.html",
+      "PackagePath": "staticwebassets\\TraversalSignUpTheme-main\\web\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\TraversalSignUpTheme-main\\web\\w3layouts-license.txt",
+      "PackagePath": "staticwebassets\\TraversalSignUpTheme-main\\web\\w3layouts-license.txt"
+    },
+    {
       "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
     },
     {
       "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\favicon.ico",
@@ -243,6 +263,38 @@
     {
       "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\simple-404-template-master\\404.html",
+      "PackagePath": "staticwebassets\\simple-404-template-master\\404.html"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\simple-404-template-master\\LICENSE",
+      "PackagePath": "staticwebassets\\simple-404-template-master"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\simple-404-template-master\\README.md",
+      "PackagePath": "staticwebassets\\simple-404-template-master\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\simple-404-template-master\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\simple-404-template-master\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\simple-404-template-master\\assets\\images\\404.svg",
+      "PackagePath": "staticwebassets\\simple-404-template-master\\assets\\images\\404.svg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\simple-404-template-master\\favicon.png",
+      "PackagePath": "staticwebassets\\simple-404-template-master\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\simple-404-template-master\\screenshot\\dekstop-ss.png",
+      "PackagePath": "staticwebassets\\simple-404-template-master\\screenshot\\dekstop-ss.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\simple-404-template-master\\screenshot\\mobile-browser.png",
+      "PackagePath": "staticwebassets\\simple-404-template-master\\screenshot\\mobile-browser.png"
     },
     {
       "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\about.html",
