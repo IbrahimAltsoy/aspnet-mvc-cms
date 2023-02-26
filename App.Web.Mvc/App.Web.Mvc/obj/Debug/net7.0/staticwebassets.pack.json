@@ -1,0 +1,657 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\App.Web.Mvc.bundle.scp.css",
+      "PackagePath": "staticwebassets\\App.Web.Mvc.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\about.html",
+      "PackagePath": "staticwebassets\\template\\about.html"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\appoinment.html",
+      "PackagePath": "staticwebassets\\template\\appoinment.html"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\blog-sidebar.html",
+      "PackagePath": "staticwebassets\\template\\blog-sidebar.html"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\blog-single.html",
+      "PackagePath": "staticwebassets\\template\\blog-single.html"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\confirmation.html",
+      "PackagePath": "staticwebassets\\template\\confirmation.html"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\contact.html",
+      "PackagePath": "staticwebassets\\template\\contact.html"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\css\\style.css",
+      "PackagePath": "staticwebassets\\template\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\template\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\department-single.html",
+      "PackagePath": "staticwebassets\\template\\department-single.html"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\department.html",
+      "PackagePath": "staticwebassets\\template\\department.html"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\doctor-single.html",
+      "PackagePath": "staticwebassets\\template\\doctor-single.html"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\doctor.html",
+      "PackagePath": "staticwebassets\\template\\doctor.html"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\about\\05.png",
+      "PackagePath": "staticwebassets\\template\\images\\about\\05.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\about\\1.png",
+      "PackagePath": "staticwebassets\\template\\images\\about\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\about\\2.png",
+      "PackagePath": "staticwebassets\\template\\images\\about\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\about\\3.png",
+      "PackagePath": "staticwebassets\\template\\images\\about\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\about\\4.png",
+      "PackagePath": "staticwebassets\\template\\images\\about\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\about\\5.png",
+      "PackagePath": "staticwebassets\\template\\images\\about\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\about\\6.png",
+      "PackagePath": "staticwebassets\\template\\images\\about\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\about\\about-1.jpg",
+      "PackagePath": "staticwebassets\\template\\images\\about\\about-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\about\\about-2.jpg",
+      "PackagePath": "staticwebassets\\template\\images\\about\\about-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\about\\about-3.jpg",
+      "PackagePath": "staticwebassets\\template\\images\\about\\about-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\about\\about-4.jpg",
+      "PackagePath": "staticwebassets\\template\\images\\about\\about-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\about\\img-1.jpg",
+      "PackagePath": "staticwebassets\\template\\images\\about\\img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\about\\img-2.jpg",
+      "PackagePath": "staticwebassets\\template\\images\\about\\img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\about\\img-3.jpg",
+      "PackagePath": "staticwebassets\\template\\images\\about\\img-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\about\\sign.png",
+      "PackagePath": "staticwebassets\\template\\images\\about\\sign.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\bg\\22.jpg",
+      "PackagePath": "staticwebassets\\template\\images\\bg\\22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\bg\\banner.jpg",
+      "PackagePath": "staticwebassets\\template\\images\\bg\\banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\bg\\bg-2.jpg",
+      "PackagePath": "staticwebassets\\template\\images\\bg\\bg-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\bg\\bg-4.jpg",
+      "PackagePath": "staticwebassets\\template\\images\\bg\\bg-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\bg\\slider-bg-1.jpg",
+      "PackagePath": "staticwebassets\\template\\images\\bg\\slider-bg-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\blog\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\template\\images\\blog\\blog-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\blog\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\template\\images\\blog\\blog-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\blog\\blog-4.jpg",
+      "PackagePath": "staticwebassets\\template\\images\\blog\\blog-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\blog\\blog-6.jpg",
+      "PackagePath": "staticwebassets\\template\\images\\blog\\blog-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\blog\\blog-7.jpg",
+      "PackagePath": "staticwebassets\\template\\images\\blog\\blog-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\blog\\blog-8.jpg",
+      "PackagePath": "staticwebassets\\template\\images\\blog\\blog-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\blog\\testimonial1.jpg",
+      "PackagePath": "staticwebassets\\template\\images\\blog\\testimonial1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\blog\\testimonial2.jpg",
+      "PackagePath": "staticwebassets\\template\\images\\blog\\testimonial2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\template\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\logo.png",
+      "PackagePath": "staticwebassets\\template\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\marker.png",
+      "PackagePath": "staticwebassets\\template\\images\\marker.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\service\\bg-1.jpg",
+      "PackagePath": "staticwebassets\\template\\images\\service\\bg-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\service\\service-1.jpg",
+      "PackagePath": "staticwebassets\\template\\images\\service\\service-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\service\\service-2.jpg",
+      "PackagePath": "staticwebassets\\template\\images\\service\\service-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\service\\service-3.jpg",
+      "PackagePath": "staticwebassets\\template\\images\\service\\service-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\service\\service-4.jpg",
+      "PackagePath": "staticwebassets\\template\\images\\service\\service-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\service\\service-6.jpg",
+      "PackagePath": "staticwebassets\\template\\images\\service\\service-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\service\\service-8.jpg",
+      "PackagePath": "staticwebassets\\template\\images\\service\\service-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\team\\1.jpg",
+      "PackagePath": "staticwebassets\\template\\images\\team\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\team\\2.jpg",
+      "PackagePath": "staticwebassets\\template\\images\\team\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\team\\3.jpg",
+      "PackagePath": "staticwebassets\\template\\images\\team\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\team\\4.jpg",
+      "PackagePath": "staticwebassets\\template\\images\\team\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\team\\test-thumb1.jpg",
+      "PackagePath": "staticwebassets\\template\\images\\team\\test-thumb1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\team\\test-thumb2.jpg",
+      "PackagePath": "staticwebassets\\template\\images\\team\\test-thumb2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\team\\test-thumb3.jpg",
+      "PackagePath": "staticwebassets\\template\\images\\team\\test-thumb3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\images\\team\\test-thumb4.jpg",
+      "PackagePath": "staticwebassets\\template\\images\\team\\test-thumb4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\index.html",
+      "PackagePath": "staticwebassets\\template\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\js\\script.js",
+      "PackagePath": "staticwebassets\\template\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\plugins\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\template\\plugins\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\plugins\\bootstrap\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\template\\plugins\\bootstrap\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\plugins\\google-map\\gmap.js",
+      "PackagePath": "staticwebassets\\template\\plugins\\google-map\\gmap.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\plugins\\icofont\\demo.html",
+      "PackagePath": "staticwebassets\\template\\plugins\\icofont\\demo.html"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\plugins\\icofont\\fonts\\icofont.eot",
+      "PackagePath": "staticwebassets\\template\\plugins\\icofont\\fonts\\icofont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\plugins\\icofont\\fonts\\icofont.ttf",
+      "PackagePath": "staticwebassets\\template\\plugins\\icofont\\fonts\\icofont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\plugins\\icofont\\fonts\\icofont.woff",
+      "PackagePath": "staticwebassets\\template\\plugins\\icofont\\fonts\\icofont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\plugins\\icofont\\fonts\\icofont.woff2",
+      "PackagePath": "staticwebassets\\template\\plugins\\icofont\\fonts\\icofont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\plugins\\icofont\\icofont.css",
+      "PackagePath": "staticwebassets\\template\\plugins\\icofont\\icofont.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\plugins\\icofont\\icofont.min.css",
+      "PackagePath": "staticwebassets\\template\\plugins\\icofont\\icofont.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\plugins\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\template\\plugins\\jquery\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\plugins\\shuffle\\shuffle.min.js",
+      "PackagePath": "staticwebassets\\template\\plugins\\shuffle\\shuffle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\plugins\\slick-carousel\\slick\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\template\\plugins\\slick-carousel\\slick\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\plugins\\slick-carousel\\slick\\config.rb",
+      "PackagePath": "staticwebassets\\template\\plugins\\slick-carousel\\slick\\config.rb"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\plugins\\slick-carousel\\slick\\fonts\\slick.eot",
+      "PackagePath": "staticwebassets\\template\\plugins\\slick-carousel\\slick\\fonts\\slick.eot"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\plugins\\slick-carousel\\slick\\fonts\\slick.svg",
+      "PackagePath": "staticwebassets\\template\\plugins\\slick-carousel\\slick\\fonts\\slick.svg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\plugins\\slick-carousel\\slick\\fonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\template\\plugins\\slick-carousel\\slick\\fonts\\slick.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\plugins\\slick-carousel\\slick\\fonts\\slick.woff",
+      "PackagePath": "staticwebassets\\template\\plugins\\slick-carousel\\slick\\fonts\\slick.woff"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\plugins\\slick-carousel\\slick\\slick-theme.css",
+      "PackagePath": "staticwebassets\\template\\plugins\\slick-carousel\\slick\\slick-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\plugins\\slick-carousel\\slick\\slick-theme.less",
+      "PackagePath": "staticwebassets\\template\\plugins\\slick-carousel\\slick\\slick-theme.less"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\plugins\\slick-carousel\\slick\\slick-theme.scss",
+      "PackagePath": "staticwebassets\\template\\plugins\\slick-carousel\\slick\\slick-theme.scss"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\plugins\\slick-carousel\\slick\\slick.css",
+      "PackagePath": "staticwebassets\\template\\plugins\\slick-carousel\\slick\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\plugins\\slick-carousel\\slick\\slick.js",
+      "PackagePath": "staticwebassets\\template\\plugins\\slick-carousel\\slick\\slick.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\plugins\\slick-carousel\\slick\\slick.less",
+      "PackagePath": "staticwebassets\\template\\plugins\\slick-carousel\\slick\\slick.less"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\plugins\\slick-carousel\\slick\\slick.min.js",
+      "PackagePath": "staticwebassets\\template\\plugins\\slick-carousel\\slick\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\plugins\\slick-carousel\\slick\\slick.scss",
+      "PackagePath": "staticwebassets\\template\\plugins\\slick-carousel\\slick\\slick.scss"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\screenshots\\1.jpg",
+      "PackagePath": "staticwebassets\\template\\screenshots\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\screenshots\\10.jpg",
+      "PackagePath": "staticwebassets\\template\\screenshots\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\screenshots\\11.jpg",
+      "PackagePath": "staticwebassets\\template\\screenshots\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\screenshots\\2.jpg",
+      "PackagePath": "staticwebassets\\template\\screenshots\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\screenshots\\3.jpg",
+      "PackagePath": "staticwebassets\\template\\screenshots\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\screenshots\\4.jpg",
+      "PackagePath": "staticwebassets\\template\\screenshots\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\screenshots\\5.jpg",
+      "PackagePath": "staticwebassets\\template\\screenshots\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\screenshots\\6.jpg",
+      "PackagePath": "staticwebassets\\template\\screenshots\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\screenshots\\7.jpg",
+      "PackagePath": "staticwebassets\\template\\screenshots\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\screenshots\\8.jpg",
+      "PackagePath": "staticwebassets\\template\\screenshots\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\screenshots\\9.jpg",
+      "PackagePath": "staticwebassets\\template\\screenshots\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\wwwroot\\template\\service.html",
+      "PackagePath": "staticwebassets\\template\\service.html"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.App.Web.Mvc.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.App.Web.Mvc.props",
+      "PackagePath": "build\\App.Web.Mvc.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.App.Web.Mvc.props",
+      "PackagePath": "buildMultiTargeting\\App.Web.Mvc.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.App.Web.Mvc.props",
+      "PackagePath": "buildTransitive\\App.Web.Mvc.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
