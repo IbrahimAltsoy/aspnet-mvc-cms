@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\App.Web.Mvc.csproj": {}
+    "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Data\\App.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\App.Web.Mvc.csproj": {
+    "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Data\\App.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\App.Web.Mvc.csproj",
-        "projectName": "App.Web.Mvc",
-        "projectPath": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\App.Web.Mvc.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Data\\App.Data.csproj",
+        "projectName": "App.Data",
+        "projectPath": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Data\\App.Data.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Web.Mvc\\obj\\",
+        "outputPath": "C:\\Users\\Lenovo\\Desktop\\Web Tasarım\\AspNetMvcCms\\App.Web.Mvc\\App.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -50,12 +50,6 @@
               "target": "Package",
               "version": "[7.0.3, )"
             },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.3, )"
-            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.3, )"
@@ -65,10 +59,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.3, )"
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[7.0.4, )"
             }
           },
           "imports": [
@@ -83,9 +73,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
