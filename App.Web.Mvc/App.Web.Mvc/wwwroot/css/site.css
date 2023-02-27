@@ -20,3 +20,24 @@ html {
 body {
   margin-bottom: 60px;
 }
+.groupentry{
+    margin:auto;
+    position:absolute;
+    top:30%;
+    left:34%;
+    background-color: rgba(0,0,0,0.7);
+    border-radius:20px;
+    box-shadow: 0 15px 25px rgba(255,255,255,0.3);
+}
+
+.acontainer{
+    display:flex;
+    flex-wrap:wrap;
+    margin:auto;
+
+}
+.acontainer xbt:hover{
+    background-color:aqua;
+    color:darkblue; 
+    box-shadow: 0 0 5px #258cfb
+}
