@@ -5,7 +5,12 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.Web.Mvc", "App.Web.Mvc\App.Web.Mvc.csproj", "{D988BFE9-6D5B-4345-A94D-DEA26D03B2F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Data", "App.Data\App.Data.csproj", "{C7CF9ABF-B213-410F-A45D-D89A10D604A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.Data", "App.Data\App.Data.csproj", "{C7CF9ABF-B213-410F-A45D-D89A10D604A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DA6DD304-941A-4E97-BEC7-1484E516DB46}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

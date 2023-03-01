@@ -1,4 +1,4 @@
-﻿
+﻿@model Page
 @{
     ViewData["Title"] = "Detail";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -11,8 +11,8 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="block text-center">
-					<span class="text-white">About Us</span>
-					<h1 class="text-capitalize mb-5 text-lg">About Us</h1>
+					<span class="text-white">@Model.Title</span>
+					<h1 class="text-capitalize mb-5 text-lg">@Model.Title</h1>
 
 					<!-- <ul class="list-inline breadcumb-nav">
 					  <li class="list-inline-item"><a href="index.html" class="text-white">Home</a></li>
@@ -29,11 +29,10 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-4">
-				<h2 class="title-color">Personal care for your healthy living</h2>
+				<h2 class="title-color">@Model.Title</h2>
 			</div>
 			<div class="col-lg-8">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, quod laborum alias. Vitae dolorum, officia sit! Saepe ullam facere at, consequatur incidunt, quae esse, quis ut reprehenderit dignissimos, libero delectus.</p>
-				<img src="~/template/images/about/sign.png" alt="" class="img-fluid">
+				@Model.Content
 			</div>
 		</div>
 	</div>
@@ -73,6 +72,7 @@
 		</div>
 	</div>
 </section>
+
 <section class="section awards">
 	<div class="container">
 		<div class="row align-items-center">

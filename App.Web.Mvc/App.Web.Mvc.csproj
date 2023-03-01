@@ -24,6 +24,11 @@
     <Folder Include="Areas\Admin\Data\" />
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="Areas\Admin\Views\" />
+    <Folder Include="ViewComponents\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\App.Data\App.Data.csproj" />
   </ItemGroup>
 
 </Project>
