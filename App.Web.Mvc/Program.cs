@@ -16,7 +16,7 @@ var app = builder.Build();
 using(var scope = app.Services.CreateScope())
 {
     var context = scope.ServiceProvider.GetRequiredService<AppDbContext>(); 
-    //context.Database.EnsureDeleted(); Migration yerine alýr yeni entity eklediðimiz zaman bu kodu açmamýz smigration görevini görecektir.
+    context.Database.EnsureDeleted(); //Migration yerine alýr yeni entity eklediðimiz zaman bu kodu açmamýz smigration görevini görecektir.
     context.Database.EnsureCreated();
 
     DbSeeder.Seed(scope.ServiceProvider);
