@@ -40,7 +40,7 @@ namespace App.Data
             }
             if (!context.Sliders.Any())
             {
-                context.Sliders.Add(new Entity.Slider { Title = "1Total Health care solution", H1Text = "1Your most trusted health partner", Description = "1A repudiandae ipsam labore ipsa voluptatum quidem quae laudantium quisquam aperiam maiores sunt fugit, deserunt rem suscipit placeat." , Image = "~/template/images/bg/slider-bg-1.jpg" });
+                context.Sliders.Add(new Entity.Slider { Title = "1Total Health care solution", H1Text = "1Your most trusted health partner", Description = "1A repudiandae ipsam labore ipsa voluptatum quidem quae laudantium quisquam aperiam maiores sunt fugit, deserunt rem suscipit placeat." , Image = "/template/images/bg/slider-bg-1.jpg" });
 
             }
 

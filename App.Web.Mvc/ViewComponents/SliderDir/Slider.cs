@@ -15,6 +15,7 @@ namespace App.Web.Mvc.ViewComponents.SliderDir
         public async Task<IViewComponentResult> InvokeAsync()
         {
             var model = _context.Sliders.FirstOrDefault(x => x.Id == 1);
+            string image = model.Image;
             int a = 5;
             return View(model);
         }

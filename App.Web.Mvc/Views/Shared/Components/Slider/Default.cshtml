@@ -1,6 +1,12 @@
 ﻿@model Slider
+
+<style>
+    #bannerr {
+        background: url('@Model.Image');
+</style>
+
 <section class="banner" id="bannerr">
-     <div class="container">
+    <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-12 col-xl-7">
                 <div class="block">
@@ -17,6 +23,7 @@
         </div>
     </div>
 </section>
-<script>
-    document.getElementById("bannerr").style.background="url('@Model.Image');no-repeat" ;
-</script>
+@*<script>
+    document.getElementById("bannerr").style.background: "url('~/template/images/bg/slider-bg-1.jpg');no-repeat";
+</script>*@
+@*background: url('Images/Login_Background.jpg');*@
