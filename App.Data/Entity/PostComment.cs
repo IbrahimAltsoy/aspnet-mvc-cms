@@ -7,17 +7,18 @@ namespace App.Data.Entity
     public class PostComment
     {
         public int Id { get; set; }
-        public int PostId { get; set; }
+        
 
-        public int UserId { get; set; }
-        [Required(ErrorMessage = "{0} can not be blankz!"), Display(Name = "Comment"), Column(TypeName = "VARCHAR(250)")]
+       
+        [Required(ErrorMessage = "{0} can not be blankz!"), Display(Name = "Comment"), Column(TypeName = "TEXT")]
         public string Comment { get; set; }
 
         public bool IsActive { get; set; }
 
-
-        public User User { get; set; }
-        public Post Post { get; set; }
+        public int? UserId { get; set; }
+        public User? User { get; set; }
+        public int? PostId { get; set; }
+        public Post? Post { get; set; }
     }
 }
 

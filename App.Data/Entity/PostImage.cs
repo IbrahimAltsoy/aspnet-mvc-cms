@@ -12,10 +12,10 @@ namespace App.Data.Entity
 	public class PostImage
 	{
 		public int Id { get; set; }
-		public int PostId { get; set; }
-        [Required(ErrorMessage = "{0} can not be blank!"), Display(Name = "Image"), Column(TypeName = "VARCHAR(250)")]
+		
+        [Required(ErrorMessage = "{0} can not be blank!"), Display(Name = "Image"), Column(TypeName = "NVARCHAR(200)")]
         public string ImagePath { get; set; }
-
-		public Post Post { get; set; }
+        public int? PostId { get; set; }
+        public Post? Post { get; set; }
 	}
 }

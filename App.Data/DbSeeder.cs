@@ -11,8 +11,7 @@ namespace App.Data
             if (!context.Settings.Any())
             {
                 context.Settings.Add(new Entity.Setting { Name = "Adres", Value = "Ankara" });
-                context.Settings.Add(new Entity.Setting { Name = "Telefon", Value = "03122223366" });
-                context.Settings.Add(new Entity.Setting { Name = "Email", Value = "test@email.com" });
+               
             }
 
             if (!context.Pages.Any())
