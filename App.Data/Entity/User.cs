@@ -14,8 +14,7 @@ namespace App.Data.Entity
         public string Name { get; set; }
         public string City { get; set; }
         public string Phone { get; set; }
-        public string PhotoFile { get; set; }
-        
-        public int UserType { get; set; }
+        public string PhotoFile { get; set; }        
+        public bool IsAdmin { get; set; }
     }
 }

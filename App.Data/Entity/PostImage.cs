@@ -11,5 +11,7 @@ namespace App.Data.Entity
 		public int Id { get; set; }
 		public int PostId { get; set; }
 		public string ImagePath { get; set; }
+
+		public Post Post { get; set; }
 	}
 }
