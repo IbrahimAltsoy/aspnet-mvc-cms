@@ -13,7 +13,7 @@ namespace App.Data.Entity
 	{
 		public int Id { get; set; }
 		public int PostId { get; set; }
-        [Required(ErrorMessage = "{0} can not be blank!"), StringLength(100), Display(Name = "Image"), Column(TypeName = "VARCHAR(250)")]
+        [Required(ErrorMessage = "{0} can not be blank!"), Display(Name = "Image"), Column(TypeName = "VARCHAR(250)")]
         public string ImagePath { get; set; }
 
 		public Post Post { get; set; }
