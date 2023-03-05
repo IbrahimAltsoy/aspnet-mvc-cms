@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace App.Data.Entity
 {
@@ -6,8 +7,9 @@ namespace App.Data.Entity
     {
         public int Id { get; set; }
         public int UserId { get; set; }
-        [Required]
-        public string Title { get; set; }
+		[Required(ErrorMessage = "{0} Can not be blank!"), Column(TypeName = "VARCHAR(200)")]
+
+		public string Title { get; set; }
         public string Content { get; set; }
         public bool IsActive { get; set; }
 
