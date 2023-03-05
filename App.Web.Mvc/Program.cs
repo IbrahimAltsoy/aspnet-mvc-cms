@@ -8,15 +8,15 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("Default"));// baðlantý adresini belirttik 
 });
 
 var app = builder.Build();
 
 using(var scope = app.Services.CreateScope())
 {
-    var context = scope.ServiceProvider.GetRequiredService<AppDbContext>();
-    context.Database.EnsureDeleted();
+    var context = scope.ServiceProvider.GetRequiredService<AppDbContext>(); 
+    //context.Database.EnsureDeleted(); Migration yerine alýr yeni entity eklediðimiz zaman bu kodu açmamýz smigration görevini görecektir.
     context.Database.EnsureCreated();
 
     DbSeeder.Seed(scope.ServiceProvider);
