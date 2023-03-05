@@ -14,5 +14,6 @@ namespace App.Data
         public DbSet<Page> Pages { get; set; }
         public DbSet<Post> Posts { get; set; }
 		public DbSet<Category> Categories { get; set; }
+		public DbSet<CategoryPost> CategoryPosts { get; set; }
 	}
 }
