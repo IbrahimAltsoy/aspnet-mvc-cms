@@ -10,7 +10,7 @@ namespace App.Data.Entity
         public int PostId { get; set; }
 
         public int UserId { get; set; }
-        [Required(ErrorMessage = "{0} can not be blankz!"), StringLength(250), Display(Name = "Comment"), Column(TypeName = "VARCHAR(250)")]
+        [Required(ErrorMessage = "{0} can not be blankz!"), Display(Name = "Comment"), Column(TypeName = "VARCHAR(250)")]
         public string Comment { get; set; }
 
         public bool IsActive { get; set; }

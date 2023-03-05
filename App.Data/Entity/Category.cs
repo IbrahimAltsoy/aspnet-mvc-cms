@@ -11,9 +11,9 @@ namespace App.Data.Entity
     public class Category
     {
 		public int Id { get; set; }
-        [Required(ErrorMessage = "{0} can not be blank!"), StringLength(30), Display(Name = "Name"), Column(TypeName = "VARCHAR(30)")]
+        [Required(ErrorMessage = "{0} can not be blank!"), Display(Name = "Name"), Column(TypeName = "VARCHAR(30)")]
         public string Name { get; set; }
-        [Required(ErrorMessage = "{0} can not be blank!"), StringLength(500), Display(Name = "Description"), Column(TypeName = "VARCHAR(500)")]
+        [Required(ErrorMessage = "{0} can not be blank!"), Display(Name = "Description"), Column(TypeName = "VARCHAR(500)")]
         public string Description { get; set; }
 	}
 }
