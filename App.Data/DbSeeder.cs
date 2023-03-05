@@ -33,6 +33,16 @@ namespace App.Data
                     context.Posts.Add(new Entity.Post { Title = "Post " + i, Content = "Content " + i, IsActive = true });
                 }
             }
+            if (!context.Topbars.Any())
+            {
+                context.Topbars.Add(new Entity.Topbar { Email = "topbar@gmail.com", Location = "topbar location", Phone = "55555555" });
+
+            }
+            if (!context.Sliders.Any())
+            {
+                context.Sliders.Add(new Entity.Slider { Title = "1Total Health care solution", H1Text = "1Your most trusted health partner", Description = "1A repudiandae ipsam labore ipsa voluptatum quidem quae laudantium quisquam aperiam maiores sunt fugit, deserunt rem suscipit placeat." , Image = "~/template/images/bg/slider-bg-1.jpg" });
+
+            }
 
             context.SaveChanges();
         }

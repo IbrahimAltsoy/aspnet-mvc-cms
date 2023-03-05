@@ -1,0 +1,27 @@
+﻿@model Slider
+<div style="background-image: url('@Model.Image'); no-repeat;">
+    <section class="banner" id="bannerr">
+        @*background: url("../images/bg/slider-bg-1.jpg") no-repeat;*@
+        
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-xl-7">
+                    <div class="block">
+                        <div class="divider mb-3"></div>
+                        <span class="text-uppercase text-sm letter-spacing ">@Model.Title</span>
+                        <h1 class="mb-3 mt-3">@Model.H1Text</h1>
+
+                        <p class="mb-4 pr-5">@Model.Description</p>
+                        <div class="btn-container ">
+                            <a href="~/template/appoinment.html" target="_blank" class="btn btn-main-2 btn-icon btn-round-full">Make appoinment <i class="icofont-simple-right ml-2  "></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+@*<script>
+    document.getElementById("bannerr").style.backgroundImage="url('@Model.Image')" ;
+</script>*@

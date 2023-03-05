@@ -2,7 +2,7 @@
     ViewData["Title"] = "Home Page";
 }
 
-<partial name="_Slider" />
+@await Component.InvokeAsync("Slider")
 <partial name="_FeaturedColumns" />
 <partial name="_FeaturedContent" />
 <partial name="_Statistics" />

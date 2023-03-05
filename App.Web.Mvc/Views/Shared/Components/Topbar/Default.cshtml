@@ -1,0 +1,21 @@
+﻿@model Topbar
+<div class="header-top-bar">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-lg-6">
+				<ul class="top-bar-info list-inline-item pl-0 mb-0">
+					<li class="list-inline-item"><a href="mailto:support@gmail.com"><i class="icofont-support-faq mr-2"></i>@Model.Email</a></li>
+					<li class="list-inline-item"><i class="icofont-location-pin mr-2"></i>@Model.Location</li>
+				</ul>
+			</div>
+			<div class="col-lg-6">
+				<div class="text-lg-right top-right-bar mt-2 mt-lg-0">
+					<a href="">
+						<span>Phone: </span>
+						<span class="h4">@Model.Phone</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -35,7 +35,9 @@
 </head>
 <body id="top">
     <header>
-        <partial name="_TopBar" />
+        @*<partial name="_TopBar" />*@
+        @await Component.InvokeAsync("Topbar")
+
         <partial name="_Header" />
     </header>
 
