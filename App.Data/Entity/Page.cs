@@ -11,6 +11,6 @@ namespace App.Data.Entity
 		[Required(ErrorMessage = "{0} Can not be blank!"), Column(TypeName = "NVARCHAR(200)")]
 		public string Title { get; set; }
         public string Content { get; set; }
-        public bool IsActive { get; set; }
+        public bool IsActive { get; set; }//
     }
 }
