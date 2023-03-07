@@ -12,6 +12,6 @@ namespace App.Data.Entity
 		public string Title { get; set; }
         public string Content { get; set; }
         public bool IsActive { get; set; }
-        // hdhjk
+        // hdhjkhdfj
     }
 }
