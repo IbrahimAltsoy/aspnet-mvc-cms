@@ -10,7 +10,7 @@ namespace App.Data.Entity
         
 
        
-        [Required(ErrorMessage = "{0} can not be blankz!"), Display(Name = "Comment"), Column(TypeName = "TEXT")]
+        [Required(ErrorMessage = "{0} This field is required!"), Display(Name = "Comment"), Column(TypeName = "TEXT")]
         public string Comment { get; set; }
 
         public bool IsActive { get; set; }
