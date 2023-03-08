@@ -11,9 +11,9 @@ namespace App.Data.Entity
     public class Category
     {
 		public int Id { get; set; }
-        [Required(ErrorMessage = "{0} can not be blank!"), Display(Name = "Name"), Column(TypeName = "NVARCHAR(100)")]
+        [Required(ErrorMessage = "{0} This field is required!"), Display(Name = "Name"), Column(TypeName = "NVARCHAR(100)")]
         public string Name { get; set; }
-        [Required(ErrorMessage = "{0} can not be blank!"), Display(Name = "Description"), Column(TypeName = "NVARCHAR(200)")]
+        [Required(ErrorMessage = "{0} This field is required!"), Display(Name = "Description"), Column(TypeName = "NVARCHAR(200)")]
         public string Description { get; set; }
 	}
 }
