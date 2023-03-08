@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using Microsoft.EntityFrameworkCore.SqlServer.Query.Internal;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -12,6 +13,7 @@ namespace App.Data.Entity
 		public string Title { get; set; }
         public string Content { get; set; }
         public bool IsActive { get; set; } // Burçin
-        // hdhjkhdfj cfghjklgh ghjklhghj sgffjgk
+        // march 2023 second check
     }
 }
+ 
