@@ -17,5 +17,6 @@ namespace App.Data.Entity
         public string Phone { get; set; }
         [Display(Name = "Image"), Column(TypeName = "NVARCHAR(300)")]
         public string? Image { get; set; }
+        //
     }
 }
