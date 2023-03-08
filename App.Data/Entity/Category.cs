@@ -15,5 +15,5 @@ namespace App.Data.Entity
         public string Name { get; set; }
         [Required(ErrorMessage = "{0} This field is required!"), Display(Name = "Description"), Column(TypeName = "NVARCHAR(200)")]
         public string Description { get; set; }
-	}//burçin değişiklik kontrolü
-}// burçin ikinci kez test ediyoruzz:)
+	}//branch denemesi
+}
