@@ -16,12 +16,14 @@ namespace App.Data
 
             if (!context.Pages.Any())
             {
+                context.Pages.Add(new Entity.Page { Title = "Home", Content = "About Content", IsActive = true });
                 context.Pages.Add(new Entity.Page { Title = "About", Content = "About Content", IsActive = true });
-
-                for (int i = 1; i <= 10; i++)
-                {
-                    context.Pages.Add(new Entity.Page { Title = "Page " + i, Content = "Content " + i, IsActive = true });
-                }
+                context.Pages.Add(new Entity.Page { Title = "Services", Content = "About Content", IsActive = true });
+                context.Pages.Add(new Entity.Page { Title = "Department", Content = "About Content", IsActive = true });
+                context.Pages.Add(new Entity.Page { Title = "Doctors", Content = "About Content", IsActive = true });
+                context.Pages.Add(new Entity.Page { Title = "Blog", Content = "About Content", IsActive = true });
+                context.Pages.Add(new Entity.Page { Title = "Contact", Content = "About Content", IsActive = true });
+                                
             }
 
             if (!context.Posts.Any())
@@ -36,6 +38,17 @@ namespace App.Data
             if (!context.Topbars.Any())
             {
                 context.Topbars.Add(new Entity.Topbar { Email = "topbar@gmail.com", Location = "topbar location", Phone = "55555555" });
+
+            }
+            if (!context.Categories.Any())
+            {
+                context.Categories.Add(new Entity.Category { Name = "Opthomology", Description = "topbar location"});
+                context.Categories.Add(new Entity.Category { Name = "Cardiology", Description = "topbar location"});
+                context.Categories.Add(new Entity.Category { Name = "Dental Care", Description = "topbar location"});
+                context.Categories.Add(new Entity.Category { Name = "Child Care", Description = "topbar location"});
+                context.Categories.Add(new Entity.Category { Name = "Pulmology", Description = "topbar location"});
+                context.Categories.Add(new Entity.Category { Name = "Gynecology", Description = "topbar location"});
+                
 
             }
             if (!context.Sliders.Any())

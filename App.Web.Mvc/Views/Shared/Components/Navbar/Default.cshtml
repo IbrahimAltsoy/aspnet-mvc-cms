@@ -1,0 +1,28 @@
+﻿@model List<Page>
+
+<nav class="navbar navbar-expand-lg navigation" id="navbar">
+    <div class="container">
+        <a class="navbar-brand" asp-controller="Home" asp-action="Index">
+            <img src="~/template/images/logo.png" alt="" class="img-fluid">
+        </a>    
+
+        <div class="collapse navbar-collapse" id="navbarmain">
+            <ul class="navbar-nav ml-auto">
+                @foreach(var item in Model)
+                {
+                    if (item.Title=="Home")
+                    {
+                        <li class="nav-item active"><a class="nav-link" asp-controller="Page" asp-action="Detail" asp-route-id="@item.Id">@item.Title</a></li>
+                    }
+                    else
+                    {
+                        <li class="nav-item"><a class="nav-link" asp-controller="Page" asp-action="Detail" asp-route-id="@item.Id">@item.Title</a></li>
+                    }
+                   
+                    
+                }  
+            </ul>
+        </div>
+    </div>
+</nav>
+

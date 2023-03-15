@@ -37,8 +37,9 @@
     <header>
         @*<partial name="_TopBar" />*@
         @await Component.InvokeAsync("Topbar")
+        @await Component.InvokeAsync("Navbar")
 
-        <partial name="_Header" />
+       @* <partial name="_Header" />*@
     </header>
 
     @RenderBody()
