@@ -2,13 +2,16 @@
     border-radius: 20px;
     background-color: rgba(0,0,0,0.7);
     margin: auto;
-    margin-top: 10%;
-    padding: 20px;
-    box-shadow: rgba(32, 197, 255, 0.65) 0px 0px 30px -2px;
+    margin-top: 15%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: rgba(32, 197, 255, 0.65) 0px 0px 30px 10px;
+    font-family: 'Montserrat';
 }
 
-.acontainer label{
-    font-family:'Helvetica';
+.acontainer label{    
     font-size:20px;
     color:aliceblue;
 }
@@ -19,10 +22,16 @@
     background-position: center;
     height:100vh;
 }
-.acontainer input {
+.acontainer input{
     border-radius: 2px;
     color: white;
     font-size: 1.4rem;
     background-color: rgba(200, 200, 200, 0.3);
     border-bottom: 0.3rem solid #4e73df !important;
 }
+    .acontainer input:hover {
+        box-shadow: rgba(32, 197, 255, 0.65) 0px 0px 10px 1px;
+    }
+    .acontainer button:hover {
+        box-shadow: rgba(32, 197, 255, 0.65) 0px 0px 10px 1px;
+    }
