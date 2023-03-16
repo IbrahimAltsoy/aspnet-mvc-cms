@@ -16,13 +16,13 @@ namespace App.Data
 
             if (!context.Pages.Any())
             {
-                context.Pages.Add(new Entity.Page { Title = "Home", Content = "About Content", IsActive = true });
+                context.Pages.Add(new Entity.Page { Title = "Home", Content = "Home Content", IsActive = true });
                 context.Pages.Add(new Entity.Page { Title = "About", Content = "About Content", IsActive = true });
-                context.Pages.Add(new Entity.Page { Title = "Services", Content = "About Content", IsActive = true });
-                context.Pages.Add(new Entity.Page { Title = "Department", Content = "About Content", IsActive = true });
-                context.Pages.Add(new Entity.Page { Title = "Doctors", Content = "About Content", IsActive = true });
-                context.Pages.Add(new Entity.Page { Title = "Blog", Content = "About Content", IsActive = true });
-                context.Pages.Add(new Entity.Page { Title = "Contact", Content = "About Content", IsActive = true });
+                context.Pages.Add(new Entity.Page { Title = "Services", Content = "Services Content", IsActive = true });
+                context.Pages.Add(new Entity.Page { Title = "Department", Content = "Department Content", IsActive = true });
+                context.Pages.Add(new Entity.Page { Title = "Doctors", Content = "Doctors Content", IsActive = true });
+                context.Pages.Add(new Entity.Page { Title = "Blog", Content = "Blog Content", IsActive = true });
+                context.Pages.Add(new Entity.Page { Title = "Contact", Content = "Contact Content", IsActive = true });
                                 
             }
 
