@@ -1,6 +1,7 @@
 ﻿using App.Data;
 using App.Data.Entity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace App.Web.Mvc.Controllers
 {
@@ -14,8 +15,9 @@ namespace App.Web.Mvc.Controllers
         public AppDbContext Db { get; }
         public async Task<IActionResult> Departments()
         {
-            //var model = await Db.Categories
-            return View();
+            var model = await Db.Categories.ToListAsync();
+            return View(model);
         }
+
     }
 }

@@ -21,6 +21,7 @@ namespace App.Data
         public DbSet<Navbar> Navbars { get; set; }
         public DbSet<Topbar> Topbars { get; set; }
         public DbSet<Slider> Sliders { get; set; }
+        public DbSet<Partner> Partners { get; set; }
         
 
 	}

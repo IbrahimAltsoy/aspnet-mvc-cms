@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using static App.Data.Entity.Departmant.DepartmentList;
+
 
 namespace App.Data.Entity
 {
@@ -15,7 +15,7 @@ namespace App.Data.Entity
         public bool IsActive { get; set; } // Burçin
         // hdhjkhdfj cfghjklgh ghjklhghj sgffjgk
         
-        //public DepartmantStatu? Departments { get; set; }
+       
 
 
     }

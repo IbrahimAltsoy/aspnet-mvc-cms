@@ -19,7 +19,8 @@
                         <li class="nav-item dropdown show">
                             <a class="nav-link dropdown-toggle" href="department.html" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Department <i class="icofont-thin-down"></i></a>
                             <ul class="dropdown-menu show" aria-labelledby="dropdown02">
-                                <li><a class="dropdown-item" href="department.html">Departments</a></li>
+                                <li class="nav-item active"><a class="nav-link" asp-controller="Page" asp-action="Detail" asp-route-id="@item.Id">@item.Title</a></li>
+                                @*<a class="nav-link" asp-controller="Department" asp-action="Departments"></a>*@
                                 <li><a class="dropdown-item" href="department-single.html">Department Single</a></li>
 
                                 <li class="dropdown dropdown-submenu dropright">

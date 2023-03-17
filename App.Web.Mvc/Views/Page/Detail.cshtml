@@ -5,31 +5,40 @@
 }
 
 <section class="page-title bg-1">
-	<div class="overlay"></div>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="block text-center">
-					<span class="text-white">@Model.Content</span>
-					<h1 class="text-capitalize mb-5 text-lg">@Model.Title</h1>					
-				</div>
-			</div>
-		</div>
-	</div>
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block text-center">
+                    <span class="text-white">@Model.Content</span>
+                    <h1 class="text-capitalize mb-5 text-lg">@Model.Title</h1>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
-
+@*
 <section class="section about-page">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-4">
-				<h2 class="title-color">@Model.Title</h2>
-			</div>
-			<div class="col-lg-8">
-				@Model.Content 
-			</div>
-		</div>
-	</div>
-</section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <h2 class="title-color">@Model.Title</h2>
+            </div>
+            <div class="col-lg-8">
+                @Model.Content
+            </div>
+        </div>
+    </div>
+</section>*@
+
+@if (Model.Title == "Department")
+{
+    @await Component.InvokeAsync("DeparmentPage")
+}
+@if (Model.Title == "About")
+{
+	@await Component.InvokeAsync("About")
+}
 
 @*<section class="fetaure-page ">
 	<div class="container">

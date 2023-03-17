@@ -51,11 +51,24 @@ namespace App.Data
                 
 
             }
-            if (!context.Sliders.Any())
+			if (!context.Partners.Any())
+			{
+				context.Partners.Add(new Entity.Partner { Name = "1", Image = "/template/images/about/1.png" });
+				context.Partners.Add(new Entity.Partner { Name = "2", Image = "/template/images/about/2.png" });
+				context.Partners.Add(new Entity.Partner { Name = "3", Image = "/template/images/about/3.png" });
+				context.Partners.Add(new Entity.Partner { Name = "4", Image = "/template/images/about/4.png" });
+				context.Partners.Add(new Entity.Partner { Name = "5", Image = "/template/images/about/5.png" });
+				context.Partners.Add(new Entity.Partner { Name = "6", Image = "/template/images/about/6.png" });
+				
+
+
+			}
+			if (!context.Sliders.Any())
             {
                 context.Sliders.Add(new Entity.Slider { Title = "1Total Health care solution", H1Text = "1Your most trusted health partner", Description = "1A repudiandae ipsam labore ipsa voluptatum quidem quae laudantium quisquam aperiam maiores sunt fugit, deserunt rem suscipit placeat." , Image = "/template/images/bg/slider-bg-1.jpg" });
 
             }
+
 
             context.SaveChanges();
         }
