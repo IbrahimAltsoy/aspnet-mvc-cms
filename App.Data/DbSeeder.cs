@@ -10,7 +10,7 @@ namespace App.Data
 
             if (!context.Settings.Any())
             {
-                context.Settings.Add(new Entity.Setting { Name = "Adres", Value = "Ankara" });               
+                context.Settings.Add(new Entity.Setting { Name = "Adres", Value = "Ankara" });
             }
 
             if (!context.Pages.Any())
@@ -22,7 +22,7 @@ namespace App.Data
                 context.Pages.Add(new Entity.Page { Title = "Doctors", Content = "Doctors Content", IsActive = true });
                 context.Pages.Add(new Entity.Page { Title = "Blog", Content = "Blog Content", IsActive = true });
                 context.Pages.Add(new Entity.Page { Title = "Contact", Content = "Contact Content", IsActive = true });
-                                
+
             }
 
             if (!context.Posts.Any())
@@ -41,29 +41,29 @@ namespace App.Data
             }
             if (!context.Categories.Any())
             {
-                context.Categories.Add(new Entity.Category { Name = "Opthomology", Description = "topbar location"});
-                context.Categories.Add(new Entity.Category { Name = "Cardiology", Description = "topbar location"});
-                context.Categories.Add(new Entity.Category { Name = "Dental Care", Description = "topbar location"});
-                context.Categories.Add(new Entity.Category { Name = "Child Care", Description = "topbar location"});
-                context.Categories.Add(new Entity.Category { Name = "Pulmology", Description = "topbar location"});
-                context.Categories.Add(new Entity.Category { Name = "Gynecology", Description = "topbar location"});     
+                context.Categories.Add(new Entity.Category { Name = "Opthomology", Description = "topbar location" });
+                context.Categories.Add(new Entity.Category { Name = "Cardiology", Description = "topbar location" });
+                context.Categories.Add(new Entity.Category { Name = "Dental Care", Description = "topbar location" });
+                context.Categories.Add(new Entity.Category { Name = "Child Care", Description = "topbar location" });
+                context.Categories.Add(new Entity.Category { Name = "Pulmology", Description = "topbar location" });
+                context.Categories.Add(new Entity.Category { Name = "Gynecology", Description = "topbar location" });
             }
-			if (!context.Partners.Any())
-			{
-				context.Partners.Add(new Entity.Partner { Name = "1", Image = "/template/images/about/1.png" });
-				context.Partners.Add(new Entity.Partner { Name = "2", Image = "/template/images/about/2.png" });
-				context.Partners.Add(new Entity.Partner { Name = "3", Image = "/template/images/about/3.png" });
-				context.Partners.Add(new Entity.Partner { Name = "4", Image = "/template/images/about/4.png" });
-				context.Partners.Add(new Entity.Partner { Name = "5", Image = "/template/images/about/5.png" });
-				context.Partners.Add(new Entity.Partner { Name = "6", Image = "/template/images/about/6.png" });
-            }
-			if (!context.Sliders.Any())
+            if (!context.Partners.Any())
             {
-                context.Sliders.Add(new Entity.Slider { Title = "1Total Health care solution", H1Text = "1Your most trusted health partner", Description = "1A repudiandae ipsam labore ipsa voluptatum quidem quae laudantium quisquam aperiam maiores sunt fugit, deserunt rem suscipit placeat." , Image = "/template/images/bg/slider-bg-1.jpg" });
+                context.Partners.Add(new Entity.Partner { Name = "1", Image = "/template/images/about/1.png" });
+                context.Partners.Add(new Entity.Partner { Name = "2", Image = "/template/images/about/2.png" });
+                context.Partners.Add(new Entity.Partner { Name = "3", Image = "/template/images/about/3.png" });
+                context.Partners.Add(new Entity.Partner { Name = "4", Image = "/template/images/about/4.png" });
+                context.Partners.Add(new Entity.Partner { Name = "5", Image = "/template/images/about/5.png" });
+                context.Partners.Add(new Entity.Partner { Name = "6", Image = "/template/images/about/6.png" });
+            }
+            if (!context.Sliders.Any())
+            {
+                context.Sliders.Add(new Entity.Slider { Title = "1Total Health care solution", H1Text = "1Your most trusted health partner", Description = "1A repudiandae ipsam labore ipsa voluptatum quidem quae laudantium quisquam aperiam maiores sunt fugit, deserunt rem suscipit placeat.", Image = "/template/images/bg/slider-bg-1.jpg" });
             }
             if (!context.Services.Any())
             {
-                context.Services.Add(new Entity.Service { Title = "Child care",Subject="",  Image = "/template/images/service/service-1.jpg" });
+                context.Services.Add(new Entity.Service { Title = "Child care", Subject = "", Image = "/template/images/service/service-1.jpg" });
                 context.Services.Add(new Entity.Service { Title = "Personal Care", Subject = "", Image = "/template/images/service/service-2.jpg" });
                 context.Services.Add(new Entity.Service { Title = "CT scan", Subject = "", Image = "/template/images/service/service-3.jpg" });
                 context.Services.Add(new Entity.Service { Title = "Joint replacement", Subject = "", Image = "/template/images/service/service-4.jpg" });

@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace App.Data.Entity
 {
@@ -32,7 +27,7 @@ namespace App.Data.Entity
         public string Phone { get; set; }
 
 
-        [Required(ErrorMessage = "{0} This field is required!"), Column(TypeName ="VARCHAR(200)")]
+        [Required(ErrorMessage = "{0} This field is required!"), Column(TypeName = "VARCHAR(200)")]
         public string PhotoFile { get; set; }
 
         public bool IsAdmin { get; set; }

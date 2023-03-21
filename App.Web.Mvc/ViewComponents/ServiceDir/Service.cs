@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace App.Web.Mvc.ViewComponents.ServiceDir
 {
-    public class Service:ViewComponent
+    public class Service : ViewComponent
     {
         private readonly AppDbContext _appDbContext;
 

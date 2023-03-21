@@ -1,13 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.CodeAnalysis.CSharp.Syntax;
 
 namespace App.Web.Mvc.Controllers
 {
     public class AuthController : Controller
     {
-       
+
         public IActionResult Register()
-        {            
+        {
             return View();
         }
         public IActionResult Login(string requestUrl)

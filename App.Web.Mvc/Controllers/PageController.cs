@@ -14,7 +14,7 @@ namespace App.Web.Mvc.Controllers
 
         public IActionResult Detail(int id)
         {
-            var page = Db.Pages.FirstOrDefault(x => x.Id == id);    
+            var page = Db.Pages.FirstOrDefault(x => x.Id == id);
             return View(page);
         }
     }

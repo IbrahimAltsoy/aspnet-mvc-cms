@@ -4,21 +4,21 @@ using Microsoft.EntityFrameworkCore;
 
 namespace App.Web.Mvc.ViewComponents.DepartmentDir
 {
-	public class DeparmentPage : ViewComponent
-	{
-		private readonly AppDbContext _appDbContext;
+    public class DeparmentPage : ViewComponent
+    {
+        private readonly AppDbContext _appDbContext;
 
-		public DeparmentPage(AppDbContext appDbContext)
-		{
-			this._appDbContext = appDbContext;
-		}
+        public DeparmentPage(AppDbContext appDbContext)
+        {
+            this._appDbContext = appDbContext;
+        }
 
-		public async Task<IViewComponentResult> InvokeAsync()
-		{
-			var model = await _appDbContext.Categories.ToListAsync();
+        public async Task<IViewComponentResult> InvokeAsync()
+        {
+            var model = await _appDbContext.Categories.ToListAsync();
 
-			return View(model);
-		}
+            return View(model);
+        }
 
-	}
+    }
 }

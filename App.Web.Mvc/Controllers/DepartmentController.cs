@@ -1,5 +1,4 @@
 ﻿using App.Data;
-using App.Data.Entity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
