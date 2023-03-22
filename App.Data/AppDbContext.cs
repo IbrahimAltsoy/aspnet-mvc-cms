@@ -13,18 +13,16 @@ namespace App.Data
         public DbSet<Setting> Settings { get; set; }
         public DbSet<Page> Pages { get; set; }
         public DbSet<Post> Posts { get; set; }
-        public DbSet<Category> Categories { get; set; }
-        public DbSet<PostComment> PostComments { get; set; }
-        public DbSet<PostImage> PostImages { get; set; }
-        public DbSet<CategoryPost> CategoryPosts { get; set; }
+		public DbSet<Category> Categories { get; set; }
+		public DbSet<PostComment> PostComments { get; set; }
+		public DbSet<PostImage> PostImages { get; set; }
+		public DbSet<CategoryPost> CategoryPosts { get; set; }
         //aşağı entitiler componentsler için eklendi
         public DbSet<Navbar> Navbars { get; set; }
         public DbSet<Topbar> Topbars { get; set; }
         public DbSet<Slider> Sliders { get; set; }
         public DbSet<Partner> Partners { get; set; }
-        public DbSet<Contact> Contacts { get; set; }
-        public DbSet<Service> Services { get; set; }
-
-
-    }
+		public DbSet<Service> Services { get; set; }
+		public DbSet<Contact> Contacts { get; set; }
+	}
 }
