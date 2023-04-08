@@ -35,3 +35,13 @@
     @await Component.InvokeAsync("Service")
 }
 
+
+@*public IActionResult 
+public IActionResult 
+public IActionResult Search(string searchString)
+{
+    var books = _context.Books.Where(b => b.Title.Contains(searchString)).T
+<form asp-controller="Home" asp-action="Search" method="get">
+    <input type="text" name="searchString" />
+    <button type="submit">Search</button>
+*@
