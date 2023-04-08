@@ -1,42 +1,57 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using App.Data;
+using App.Data.Entity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace App.Web.Mvc.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class ServiceController : Controller
     {
-        // GET: ServiceController
-        public ActionResult Index()
+        private readonly AppDbContext? _context;
+       
+
+        public ServiceController(AppDbContext context)
         {
-            return View();
+            _context = context;
+        }
+
+        // GET: ServiceController
+        public async Task<ActionResult> Index()
+        {
+            var model =await _context.Services.ToListAsync();
+            return View(model);
         }
 
         // GET: ServiceController/Details/5
         public ActionResult Details(int id)
         {
+
             return View();
         }
 
         // GET: ServiceController/Create
-        public ActionResult Create()
+        public async Task<IActionResult> Create()
         {
             return View();
         }
 
         // POST: ServiceController/Create
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        // POST: CategoriesController/Create
+        [HttpPost]        
+        public async Task<IActionResult> Create(Service service)
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+
+            await _context.Services.AddAsync(service);
+            int c = 7;
+            await _context.SaveChangesAsync();
+            int a = 5;
+            return RedirectToAction(nameof(Index));
+
+
+
         }
+
 
         // GET: ServiceController/Edit/5
         public ActionResult Edit(int id)
