@@ -54,7 +54,7 @@ namespace App.Web.Mvc.Areas.Admin.Controllers
 
 
         // GET: ServiceController/Edit/5
-        public async Task<ActionResult> DeleteAsync(int id)
+        public async Task<ActionResult> Edit(int id)
         {
             var model = await _context.Services.FindAsync(id);
             return View(model);
@@ -63,7 +63,7 @@ namespace App.Web.Mvc.Areas.Admin.Controllers
         // POST: ServiceController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> EditAsync(int id, Service service)
+        public async Task<ActionResult> Edit(int id, Service service)
         {
             if (ModelState.IsValid)
             {
