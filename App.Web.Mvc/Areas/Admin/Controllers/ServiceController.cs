@@ -56,7 +56,7 @@ namespace App.Web.Mvc.Areas.Admin.Controllers
         // GET: ServiceController/Edit/5
         public async Task<ActionResult> DeleteAsync(int id)
         {
-            var model = await _context.FindAsync(typeof(int));
+            var model = await _context.Services.FindAsync(id);
             return View(model);
         }
 
@@ -69,7 +69,7 @@ namespace App.Web.Mvc.Areas.Admin.Controllers
             {
                 try
                 {
-                    _context.Update(service);
+                     _context.Services.Update(service);
                     await _context.SaveChangesAsync();
                     return RedirectToAction(nameof(Index));
                 }
@@ -85,7 +85,7 @@ namespace App.Web.Mvc.Areas.Admin.Controllers
         // GET: ServiceController/Delete/5
         public ActionResult Delete(int id)
         {
-            var model =  _context.Find(typeof(int));
+            var model =  _context.Services.Find(id);
             return View(model);
         }
 
@@ -98,7 +98,7 @@ namespace App.Web.Mvc.Areas.Admin.Controllers
             try
             {
               
-                _context.Remove(service);
+                _context.Services.Remove(service);
                  _context.SaveChanges();
                 return RedirectToAction(nameof(Index));
             }
