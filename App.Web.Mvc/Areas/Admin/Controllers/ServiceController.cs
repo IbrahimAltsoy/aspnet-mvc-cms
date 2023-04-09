@@ -42,10 +42,8 @@ namespace App.Web.Mvc.Areas.Admin.Controllers
         public async Task<IActionResult> Create(Service service)
         {
 
-            await _context.Services.AddAsync(service);
-            int c = 7;
-            await _context.SaveChangesAsync();
-            int a = 5;
+            await _context.Services.AddAsync(service);        
+            await _context.SaveChangesAsync();            
             return RedirectToAction(nameof(Index));
 
 
