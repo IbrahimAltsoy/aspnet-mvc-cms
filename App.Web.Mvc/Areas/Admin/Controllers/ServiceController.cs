@@ -2,8 +2,8 @@
 using App.Data.Entity;
 using App.Web.Mvc.Utils;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using System.Drawing.Drawing2D;
 
 namespace App.Web.Mvc.Areas.Admin.Controllers
 {
@@ -41,15 +41,37 @@ namespace App.Web.Mvc.Areas.Admin.Controllers
         // POST: ServiceController/Create
         // POST: CategoriesController/Create
         [HttpPost]        
-        public async Task<IActionResult> Create(Service service, IFormFile? Logo)
+        public async Task<IActionResult> Create(Service service)
         {
 
-            if (ModelState.IsValid) // Model class ımız olan brand nesnesinin validasyon için koyduğumuz kurallarınıa (örneğin marka adı required-boş geçilemez gibi) uyulmuşsa
+            await _context.Services.AddAsync(service);
+            int c = 7;
+            await _context.SaveChangesAsync();
+            int a = 5;
+            return RedirectToAction(nameof(Index));
+
+
+
+        }
+
+
+        // GET: ServiceController/Edit/5
+        public async Task<ActionResult> DeleteAsync(int id)
+        {
+            var model = await _context.FindAsync(typeof(int));
+            return View(model);
+        }
+
+        // POST: ServiceController/Edit/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<ActionResult> EditAsync(int id, Service service)
+        {
+            if (ModelState.IsValid)
             {
                 try
                 {
-                    service.Image = await FileHelpers.FileLoaderAsync(Logo);
-                    await _context.AddAsync(service);
+                    _context.Update(service);
                     await _context.SaveChangesAsync();
                     return RedirectToAction(nameof(Index));
                 }
@@ -60,46 +82,26 @@ namespace App.Web.Mvc.Areas.Admin.Controllers
             }
 
             return View(service);
-
-
-
-        }
-
-
-        // GET: ServiceController/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
-
-        // POST: ServiceController/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
         }
 
         // GET: ServiceController/Delete/5
         public ActionResult Delete(int id)
         {
-            return View();
+            var model =  _context.Find(typeof(int));
+            return View(model);
         }
+
 
         // POST: ServiceController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public ActionResult Delete(int id, Service service)
         {
             try
             {
+              
+                _context.Remove(service);
+                 _context.SaveChanges();
                 return RedirectToAction(nameof(Index));
             }
             catch
